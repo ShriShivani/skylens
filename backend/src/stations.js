@@ -1,0 +1,23 @@
+export const STATIONS = [
+  { id: 'CHENNAI', name: 'Chennai', lat: 13.0827, lon: 80.2707, region: 'South' },
+  { id: 'COIMBATORE', name: 'Coimbatore', lat: 11.0168, lon: 76.9558, region: 'South' },
+  { id: 'MADURAI', name: 'Madurai', lat: 9.9252, lon: 78.1198, region: 'South' },
+  { id: 'TRICHY', name: 'Trichy', lat: 10.7905, lon: 78.7047, region: 'South' },
+  { id: 'SALEM', name: 'Salem', lat: 11.6643, lon: 78.146, region: 'South' },
+  { id: 'BENGALURU', name: 'Bengaluru', lat: 12.9716, lon: 77.5946, region: 'South' },
+  { id: 'MYSURU', name: 'Mysuru', lat: 12.2958, lon: 76.6394, region: 'South' },
+  { id: 'HYDERABAD', name: 'Hyderabad', lat: 17.385, lon: 78.4867, region: 'South' },
+  { id: 'KOCHI', name: 'Kochi', lat: 9.9312, lon: 76.2673, region: 'South' },
+  { id: 'THIRUVANANTHAPURAM', name: 'Thiruvananthapuram', lat: 8.5241, lon: 76.9366, region: 'South' },
+  { id: 'MUMBAI', name: 'Mumbai', lat: 19.076, lon: 72.8777, region: 'West' },
+  { id: 'PUNE', name: 'Pune', lat: 18.5204, lon: 73.8567, region: 'West' },
+  { id: 'DELHI', name: 'Delhi', lat: 28.6139, lon: 77.209, region: 'North' },
+  { id: 'KOLKATA', name: 'Kolkata', lat: 22.5726, lon: 88.3639, region: 'East' },
+  { id: 'AHMEDABAD', name: 'Ahmedabad', lat: 23.0225, lon: 72.5714, region: 'West' },
+  { id: 'JAIPUR', name: 'Jaipur', lat: 26.9124, lon: 75.7873, region: 'North' },
+  { id: 'BHOPAL', name: 'Bhopal', lat: 23.2599, lon: 77.4126, region: 'Central' },
+  { id: 'LUCKNOW', name: 'Lucknow', lat: 26.8467, lon: 80.9462, region: 'North' },
+  { id: 'VISAKHAPATNAM', name: 'Visakhapatnam', lat: 17.6868, lon: 83.2185, region: 'East' },
+  { id: 'MANGALORE', name: 'Mangalore', lat: 12.9141, lon: 74.856, region: 'West' },
+];
+export const byId = Object.fromEntries(STATIONS.map((s) => [s.id, s]));
